@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <ul>
+                <h1 id="logo">DncWeather</h1>
+                <li><a href="#resultado" >Endereços</a></li>
+                <li id="prev"><a href="#previsao" >Previsão do tempo</a></li>
+            </ul>
+        </div>
+        <div id="descubra">
+            <h1>Descubra Mais com Precisão: <br>
+                Previsões do Tempo e endereços <br>
+                em tempo real.<br>
+            </h1>
+            <img src="imagem1.svg" >
+        </div>
+    </header>
+    <section>
+        <form id="dataForm">
+            <label for="">Primeiro Nome:</label> <br>
+            <input type="text" id="name" name="name" placeholder="Insira seu primeiro nome:"> <br>
+            <label for="">E-mail:</label> <br>
+            <input type="email" id="email" name="E-mail" placeholder="Insira seu e-mail"> <br>
+            <label for="">Digite o CEP:</label> <br>
+            <input type="number" id="cep" name="CEP" placeholder="Insira o CEP"> <br>
+            <label for="">Digite a latitude e longitude para saber a previsão:</label> <br>
+            <div>
+            <input type="number"  id="latitude" name="latitude" placeholder="Latitude"> 
+            <input type="number" id="longitude" name="longitude" placeholder="Longitude">
+            </div>
+            
+            <button id="cta" type="submit"><a href="#resultado">Acessar</a></button>
+        </form>
+
+        <div>
+            <div id="resultado">
+                <h1>Resultado da busca por CEP:</h1>
+                <img id="imagem2" src="imagem2.svg">
+            </div>
+            <div id="logradouro">
+                <div id="linhaAzul">
+                    <ul>
+                        <li>Logradouro/nome</li>
+                        <li>Bairro/Distrito</li>
+                        <li>Localidade/UF</li>
+                    </ul>
+                </div>
+               <div id="linhaBranca">
+                <ul id="cep-result">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+               </div>
+                
+            </div>
+        </div>
+        <div id="previsao">
+            <h1>Previsão do tempo na região:</h1>
+            <img src="imagem3.svg">
+        </div>
+        <div id="weather-result">
+            <h1 id="regiao"></h1> 
+        </div>
+    </section>
+    <footer>
+        <h1>Termos de Uso | Política de Privacidade</h1>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
