@@ -1,7 +1,7 @@
 # SistemaWeather
-Uma aplicação web que fornece informações em tempo real sobre o clima e endereços com integração de APIs de previsão do tempo e CEP.
-
 DncWeather é uma aplicação web que fornece informações em tempo real sobre o clima e endereços utilizando APIs de previsão do tempo e CEP.
+
+link: https://sistema-weather-1a9wreld8-ana-s.vercel.app
 
 ## Funcionalidades
 
@@ -31,3 +31,6 @@ meu-projeto/
 ├── package.json
 ├── package-lock.json
 └── Procfile
+
+![image](https://github.com/AnaRemedios/SistemaWeather/assets/169928633/35dff5ed-956b-4211-bdb3-7319c1147687)
+
